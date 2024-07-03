@@ -8,6 +8,18 @@ export class tool {
         this.destroyEvents();
     }
 
+    set fillColor(color) {
+        this.ctx.fillStyle = color
+    }
+    // Колір
+    set strokeColor(color) {
+        this.ctx.strokeStyle = color
+    }
+    // Ширина ліній
+    set lineWidth(width) {
+        this.ctx.lineWidth = width
+    }
+
 
     destroyEvents() {
         this.canvas.onmousemove = null
