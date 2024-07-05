@@ -1,6 +1,5 @@
 import { tool } from './tool';
 
-debugger;
 export class Brush extends tool {
     constructor(canvas) {
         super(canvas);
